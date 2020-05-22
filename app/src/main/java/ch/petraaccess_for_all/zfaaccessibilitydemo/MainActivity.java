@@ -1,7 +1,7 @@
 package ch.petraaccess_for_all.zfaaccessibilitydemo;
 
 import android.os.Bundle;
-//import android.view.View;
+import android.view.View;
 import android.view.Menu;
 
 //import com.google.android.material.floatingactionbutton.FloatingActionButton;
