@@ -8,17 +8,17 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/menu_home" />
+        <item
+            android:id="@+id/imageFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Images" />
 
         <item
             android:id="@+id/contactFragment"
             android:icon="@drawable/ic_contacts_black_24dp"
             android:title="contact" />
 
-        <!--
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-       -->
+
+
     </group>
 </menu>
