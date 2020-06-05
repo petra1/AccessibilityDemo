@@ -10,7 +10,7 @@
             android:title="@string/menu_home" />
         <item
             android:id="@+id/imageFragment"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_gif_black_24dp"
             android:title="Images" />
 
         <item
