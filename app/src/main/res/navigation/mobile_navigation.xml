@@ -23,6 +23,11 @@
         android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.ImageFragment"
         android:label="Images"
         tools:layout="@layout/fragment_image" />
+    <fragment
+        android:id="@+id/editFieldFragment"
+        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.EditFieldFragment"
+        android:label="Eedit Fields"
+        tools:layout="@layout/fragment_edit_field" />
 
 
 </navigation>

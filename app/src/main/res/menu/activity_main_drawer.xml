@@ -12,6 +12,11 @@
             android:id="@+id/imageFragment"
             android:icon="@drawable/ic_gif_black_24dp"
             android:title="Images" />
+        <item
+            android:id="@+id/editFieldFragment"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="Edit Fields" />
+
 
         <item
             android:id="@+id/contactFragment"
