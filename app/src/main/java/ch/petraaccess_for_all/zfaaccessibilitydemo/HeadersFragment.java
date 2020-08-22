@@ -10,7 +10,8 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 
 
-public class ContactFragment extends Fragment {
+public class HeadersFragment extends Fragment {
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -20,10 +21,9 @@ public class ContactFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public ContactFragment() {
+    public HeadersFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -39,9 +39,12 @@ public class ContactFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate (R.layout.fragment_contact, container, false);
         WebView webView = (WebView) v.findViewById (R.id.webView);
-        webView.loadUrl ("file:///android_asset/contact.html");
+        webView.loadUrl ("file:///android_asset/heading.html");
+
+
 
         return v;
 
-    }
-}
+
+
+    }}

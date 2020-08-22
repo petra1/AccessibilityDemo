@@ -28,6 +28,11 @@
         android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.EditFieldFragment"
         android:label="Eedit Fields"
         tools:layout="@layout/fragment_edit_field" />
+    <fragment
+        android:id="@+id/headersFragment"
+        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.HeadersFragment"
+        android:label="Header"
+        tools:layout="@layout/fragment_headers" />
 
 
 </navigation>
