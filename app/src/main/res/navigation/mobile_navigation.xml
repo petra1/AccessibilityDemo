@@ -33,6 +33,11 @@
         android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.HeadersFragment"
         android:label="Header"
         tools:layout="@layout/fragment_headers" />
+    <fragment
+        android:id="@+id/contrastFragment"
+        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.ContrastFragment"
+        android:label="Contrast ratios"
+        tools:layout="@layout/fragment_contrast" />
 
 
 </navigation>

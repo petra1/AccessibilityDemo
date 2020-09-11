@@ -20,6 +20,10 @@
             android:id="@+id/editFieldFragment"
             android:icon="@drawable/ic_edit_black_24dp"
             android:title="Edit Fields" />
+        <item
+            android:id="@+id/contrastFragment"
+            android:icon="@drawable/ic_baseline_color_lens_24"
+            android:title="Contrast Ratios" />
 
         <item
             android:id="@+id/contactFragment"

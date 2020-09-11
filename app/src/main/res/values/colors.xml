@@ -3,4 +3,10 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="just_past_foreground">#00e9ff</color>
+    <color name="just_past_background">#5a4dad</color>
+    <color name="past_background">#000000</color>
+    <color name="just_fault_background">#0083a1</color>
+    <color name="fault_background">#a0b0a1</color>
+    <color name="white">#ffffff</color>
 </resources>
