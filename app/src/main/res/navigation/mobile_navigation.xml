@@ -38,6 +38,11 @@
         android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.ContrastFragment"
         android:label="Contrast ratios"
         tools:layout="@layout/fragment_contrast" />
+    <fragment
+        android:id="@+id/imageButtonFragment"
+        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.ImageButtonFragment"
+        android:label="Image Buttons"
+        tools:layout="@layout/fragment_image_button" />
 
 
 </navigation>
