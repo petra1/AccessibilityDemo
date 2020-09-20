@@ -1,5 +1,6 @@
 package ch.petraaccess_for_all.zfaaccessibilitydemo;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -26,6 +27,7 @@ public class ImageButtonFragment extends Fragment {
     public ImageButtonFragment() {
         // Required empty public constructor
     }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
@@ -46,28 +48,25 @@ public class ImageButtonFragment extends Fragment {
         final TextView textView13 = (TextView) v.findViewById (R.id.textView13);
 
 
-        imageButton1 .setOnClickListener (
+        imageButton1.setOnClickListener (
                 new Button.OnClickListener () {
+                    @SuppressLint("SetTextI18n")
                     @Override
                     public void onClick(View view) {
                         textView12.setText ("The current version of WCAG is 2.1.");
                     }
 
-                    public void onclick(View v) {
-
-                    }
                 }
         );
-        imageButton2 .setOnClickListener (
+        imageButton2.setOnClickListener (
                 new Button.OnClickListener () {
+                    @SuppressLint("SetTextI18n")
                     @Override
                     public void onClick(View view) {
                         textView13.setText ("The current version was released in june 2018.");
                     }
 
-                    public void onclick(View v) {
 
-                    }
                 }
         );
 
