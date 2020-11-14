@@ -1,4 +1,4 @@
-package ch.petraaccess_for_all.zfaaccessibilitydemo;
+package ch.petraaccess_for_all.accessibilitydemo;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
@@ -8,8 +8,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 
 
-public class HeadersFragment extends Fragment {
-
+public class ContactFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -19,9 +18,10 @@ public class HeadersFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public HeadersFragment() {
+    public ContactFragment() {
         // Required empty public constructor
     }
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,12 +37,9 @@ public class HeadersFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate (R.layout.fragment_contact, container, false);
         WebView webView = (WebView) v.findViewById (R.id.webView);
-        webView.loadUrl ("file:///android_asset/heading.html");
-
-
+        webView.loadUrl ("file:///android_asset/contact.html");
 
         return v;
 
-
-
-    }}
+    }
+}

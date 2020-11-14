@@ -1,13 +1,14 @@
-package ch.petraaccess_for_all.zfaaccessibilitydemo;
+package ch.petraaccess_for_all.accessibilitydemo;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 
 
-public class ContrastFragment extends Fragment {
+public class HeadersFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -18,10 +19,9 @@ public class ContrastFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public ContrastFragment() {
+    public HeadersFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,14 @@ public class ContrastFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate (R.layout.fragment_contrast, container, false);
-    }
-}
+        View v = inflater.inflate (R.layout.fragment_contact, container, false);
+        WebView webView = (WebView) v.findViewById (R.id.webView);
+        webView.loadUrl ("file:///android_asset/heading.html");
+
+
+
+        return v;
+
+
+
+    }}

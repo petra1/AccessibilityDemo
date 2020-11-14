@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.ui.home.HomeFragment"
+        android:name="ch.petraaccess_for_all.accessibilitydemo.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
 
@@ -15,32 +15,32 @@
     </fragment>
     <fragment
         android:id="@+id/contactFragment"
-        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.ContactFragment"
+        android:name="ch.petraaccess_for_all.accessibilitydemo.ContactFragment"
         android:label="Contact"
         tools:layout="@layout/fragment_contact" />
     <fragment
         android:id="@+id/imageFragment"
-        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.ImageFragment"
+        android:name="ch.petraaccess_for_all.accessibilitydemo.ImageFragment"
         android:label="Images"
         tools:layout="@layout/fragment_image" />
     <fragment
         android:id="@+id/editFieldFragment"
-        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.EditFieldFragment"
+        android:name="ch.petraaccess_for_all.accessibilitydemo.EditFieldFragment"
         android:label="Eedit Fields"
         tools:layout="@layout/fragment_edit_field" />
     <fragment
         android:id="@+id/headersFragment"
-        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.HeadersFragment"
+        android:name="ch.petraaccess_for_all.accessibilitydemo.HeadersFragment"
         android:label="Header"
         tools:layout="@layout/fragment_headers" />
     <fragment
         android:id="@+id/contrastFragment"
-        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.ContrastFragment"
+        android:name="ch.petraaccess_for_all.accessibilitydemo.ContrastFragment"
         android:label="Contrast ratios"
         tools:layout="@layout/fragment_contrast" />
     <fragment
         android:id="@+id/imageButtonFragment"
-        android:name="ch.petraaccess_for_all.zfaaccessibilitydemo.ImageButtonFragment"
+        android:name="ch.petraaccess_for_all.accessibilitydemo.ImageButtonFragment"
         android:label="Image Buttons"
         tools:layout="@layout/fragment_image_button" />
 

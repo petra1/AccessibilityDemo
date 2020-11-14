@@ -1,4 +1,4 @@
-package ch.petraaccess_for_all.zfaaccessibilitydemo;
+package ch.petraaccess_for_all.accessibilitydemo;
 
 import android.os.Bundle;
 import com.google.android.material.navigation.NavigationView;

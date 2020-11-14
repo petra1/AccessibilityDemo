@@ -1,4 +1,4 @@
-package ch.petraaccess_for_all.zfaaccessibilitydemo.ui.home;
+package ch.petraaccess_for_all.accessibilitydemo.ui.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

@@ -1,4 +1,4 @@
-package ch.petraaccess_for_all.zfaaccessibilitydemo;
+package ch.petraaccess_for_all.accessibilitydemo;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation ().getTargetContext ();
 
-        assertEquals ("ch.petraaccess_for_all.zfaaccessibilitydemo", appContext.getPackageName ());
+        assertEquals ("ch.petraaccess_for_all.accessibilitydemo", appContext.getPackageName ());
     }
 }

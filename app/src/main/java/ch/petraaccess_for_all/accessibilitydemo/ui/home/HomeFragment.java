@@ -1,4 +1,4 @@
-package ch.petraaccess_for_all.zfaaccessibilitydemo.ui.home;
+package ch.petraaccess_for_all.accessibilitydemo.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import ch.petraaccess_for_all.zfaaccessibilitydemo.R;
+import ch.petraaccess_for_all.accessibilitydemo.R;
 
 public class HomeFragment extends Fragment {
 

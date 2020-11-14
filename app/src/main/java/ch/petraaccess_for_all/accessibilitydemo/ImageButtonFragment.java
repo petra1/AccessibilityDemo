@@ -1,4 +1,4 @@
-package ch.petraaccess_for_all.zfaaccessibilitydemo;
+package ch.petraaccess_for_all.accessibilitydemo;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
