@@ -8,5 +8,5 @@ The vision behind the Accessibility Demo is to improve my skills as an Android d
 
 Contribution
 
-At the moment there are no Contributiors however your are willcommen to contribute to the project.
+At the moment there are no contributiors however your are willcommen to contribute to the project.
  
