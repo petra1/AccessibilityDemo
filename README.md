@@ -11,3 +11,11 @@ The vision behind the Accessibility Demo is to improve my skills as an Android d
 
 At the moment there are no contributors however your are welcome to contribute to the project.
  
+<h2>Requirement</h2>
+
+To compile the app Android Studio 4.X or newer is required.
+
+- minSdkVersion is 26
+- targetSdkVersion is 29
+- compileSdkVersion  29
+- buildToolsVersion "29.0.3"
