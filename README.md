@@ -2,7 +2,7 @@
 **If you want to learn about accessible Android apps development, you are at the right place.**
 The "Accessibility Demo" is private projekt by myself.
 
-Vision
+##Vision
 
 The vision behind the Accessibility Demo is to improve my skills as an Android developer on a real project.
 
