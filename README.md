@@ -7,9 +7,17 @@ The "Accessibility Demo" is private project by myself.
 
 The vision behind the Accessibility Demo is to improve my skills as an Android developer on a real project.
 
+<h2>usage</h2>
+
+The app can be used as a reference for the evolution of test tools for accessibility. The app is also intended as an example of how an app acceible can be made.
+
+In the app are different elements e.g image buttons ect. I have implemented each element twice - once in an accessible version and once not accessible variant.
+
 <h2>Contribution</h2>
 
 At the moment there are no contributors however your are welcome to contribute to the project.
+
+
  
 <h2>Requirement</h2>
 
@@ -17,5 +25,6 @@ To compile the app Android Studio 4.X or newer is required.
 
 - minSdkVersion is 26
 - targetSdkVersion is 29
-- compileSdkVersion  29
-- buildToolsVersion "29.0.3"
+- compileSdkVersion is 29
+- buildToolsVersion is  "29.0.3"
+
