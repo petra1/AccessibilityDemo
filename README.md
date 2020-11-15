@@ -1,13 +1,13 @@
 # AccessibilityDemo
 **If you want to learn about accessible Android apps development, you are at the right place.**
 
-The "Accessibility Demo" is private projekt by myself.
+The "Accessibility Demo" is private project by myself.
 
-**Vision**
+<h2>Vision</h2>
 
 The vision behind the Accessibility Demo is to improve my skills as an Android developer on a real project.
 
-**Contribution**
+<h2>Contribution</h2>
 
-At the moment there are no contributiors however your are willcommen to contribute to the project.
+At the moment there are no contributors however your are welcome to contribute to the project.
  
