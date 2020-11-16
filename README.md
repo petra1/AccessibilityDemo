@@ -9,7 +9,7 @@ The vision behind the Accessibility Demo is to improve my skills as an Android d
 
 <h2>Usage</h2>
 
-The app can be used as a reference for the evolution of test tools for accessibility. The app is also intended as an example of how an app acceible can be made.
+The app can be used as a reference for the evolution of test tools for accessibility. The app is also intended as an example of how an  app can be made acceible.
 
 In the app are different elements e.g image buttons ect. I have implemented each element twice - once in an accessible version and once not accessible variant.
 
