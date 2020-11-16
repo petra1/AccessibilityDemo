@@ -1,7 +1,7 @@
 # AccessibilityDemo
 **If you want to learn about accessible Android apps development, you are at the right place.**
 
-The "Accessibility Demo" is private project by myself.
+The "Accessibility Demo" is a private project.
 
 <h2>Vision</h2>
 
