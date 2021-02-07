@@ -13,4 +13,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="images">Images</string>
+    <string name="image_buttons">Image Buttons</string>
+    <string name="headers">Headers</string>
+
 </resources>

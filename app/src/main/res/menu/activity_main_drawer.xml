@@ -11,16 +11,16 @@
         <item
             android:id="@+id/imageFragment"
             android:icon="@drawable/ic_gif_black_24dp"
-            android:title="Images" />
+            android:title="@string/images" />
         <item
             android:id="@+id/imageButtonFragment"
             android:icon="@drawable/ic_baseline_radio_button_checked_24"
-            android:title="Image Buttons" />
+            android:title="@string/image_buttons" />
 
         <item
             android:id="@+id/headersFragment"
             android:icon="@drawable/ic_headers_menu_24"
-            android:title="Headers" />
+            android:title="@string/headers" />
         <item
             android:id="@+id/editFieldFragment"
             android:icon="@drawable/ic_edit_black_24dp"

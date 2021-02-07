@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:accessibilityHeading="true"
-            android:text="Images"
+            android:text="@string/images"
             android:textSize="30sp"
             android:layout_marginTop="20dp"
             android:layout_marginStart="260dp"/>
