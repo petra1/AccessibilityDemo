@@ -19,5 +19,13 @@
     <string name="edit_fields">Edit Fields</string>
     <string name="contrast_ratios">Contrast Ratios</string>
     <string name="contact">contact</string>
+    <string name="just_past_with_4_5_1_hex_00e9ff_on_5a4dad">Just past with 4.5:1, HEX: #00e9ff on #5a4dad</string>
+    <string name="passt_with_21_0_1_hex_ffffff_on_000000">Passt with 21.0:1, HEX: #ffffff on #000000</string>
+    <string name="fault_with_2_3_1_hex_ffffff_on_a0b0a1">Fault with 2.3:1, HEX: #ffffff on #a0b0a1</string>
+    <string name="just_fault_with_4_4_1_hex_ffffff_on_0083a1">Just fault with 4.4:1, HEX: #ffffff on #0083a1</string>
+    <string name="first_name">First name</string>
+    <string name="send">Send</string>
+    <string name="last_name">Last name</string>
+    <string name="enter_your_last_name">Enter your Last name</string>
 
 </resources>
