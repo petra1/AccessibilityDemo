@@ -24,16 +24,16 @@
         <item
             android:id="@+id/editFieldFragment"
             android:icon="@drawable/ic_edit_black_24dp"
-            android:title="Edit Fields" />
+            android:title="@string/edit_fields" />
         <item
             android:id="@+id/contrastFragment"
             android:icon="@drawable/ic_baseline_color_lens_24"
-            android:title="Contrast Ratios" />
+            android:title="@string/contrast_ratios" />
 
         <item
             android:id="@+id/contactFragment"
             android:icon="@drawable/ic_contacts_black_24dp"
-            android:title="contact" />
+            android:title="@string/contact" />
 
 
 

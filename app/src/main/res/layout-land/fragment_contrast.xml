@@ -19,7 +19,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="32dp"
             android:accessibilityHeading="true"
-            android:text="Contrast Ratios"
+            android:text="@string/contrast_ratios"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.488"

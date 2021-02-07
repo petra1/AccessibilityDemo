@@ -16,5 +16,8 @@
     <string name="images">Images</string>
     <string name="image_buttons">Image Buttons</string>
     <string name="headers">Headers</string>
+    <string name="edit_fields">Edit Fields</string>
+    <string name="contrast_ratios">Contrast Ratios</string>
+    <string name="contact">contact</string>
 
 </resources>
