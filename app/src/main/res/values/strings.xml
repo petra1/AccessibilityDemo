@@ -27,5 +27,11 @@
     <string name="send">Send</string>
     <string name="last_name">Last name</string>
     <string name="enter_your_last_name">Enter your Last name</string>
+    <string name="this_image_has_no_contentdescription_so_that_the_screen_reader_ignored_completely">This image has no contentDescription so that the screen reader ignored completely.</string>
+    <string name="flight_landed">flight landed</string>
+    <string name="this_image_has_a_meaningful_contentdescription_so_that_screen_reader_users_can_perceive_it">This image has a meaningful contentDescription so that screen reader users can perceive it.</string>
+    <string name="what_is_the_current_version_of_wcag">What is the current version of WCAG?</string>
+    <string name="when_was_the_current_version_of_wcag_released">When was the current version of WCAG released?</string>
+    <string name="get_the_answer_to_question_two">Get the answer to question two</string>
 
 </resources>

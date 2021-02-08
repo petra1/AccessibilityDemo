@@ -6,9 +6,7 @@
     tools:context=".ImageFragment">
 
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
 
         <TextView
             android:id="@+id/textView3"
@@ -32,7 +30,7 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This image has no contentDescription at all so that the screen reader ignored completely."
+            android:text="@string/this_image_has_no_contentdescription_so_that_the_screen_reader_ignored_completely"
             android:layout_marginStart="20dp"
             android:layout_marginTop="150dp"/>
 
@@ -40,7 +38,7 @@
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="flight landed"
+            android:contentDescription="@string/flight_landed"
             android:src="@mipmap/ic_flight_landed"
             android:layout_marginStart="280dp"
             android:layout_marginTop="200dp"/>
@@ -48,10 +46,10 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This image has a meaningful contentDescription so that screen reader users can perceive it."
+            android:text="@string/this_image_has_a_meaningful_contentdescription_so_that_screen_reader_users_can_perceive_it"
             android:layout_marginStart="20dp"
             android:layout_marginTop="260dp"
             android:layout_marginEnd="5dp"/>
 
-    </RelativeLayout>
+
 </FrameLayout>

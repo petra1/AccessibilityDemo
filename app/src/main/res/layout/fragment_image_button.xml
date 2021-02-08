@@ -31,7 +31,7 @@
             android:layout_marginStart="84dp"
             android:layout_marginTop="60dp"
             android:layout_marginEnd="93dp"
-            android:text="What is the current version of WCAG?"
+            android:text="@string/what_is_the_current_version_of_wcag"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -56,7 +56,7 @@
             android:layout_marginTop="64dp"
             android:layout_marginEnd="55dp"
             android:accessibilityLiveRegion="polite"
-            android:text="When was the current version of WCAG released?"
+            android:text="@string/when_was_the_current_version_of_wcag_released"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButton" />
@@ -68,7 +68,7 @@
             android:layout_marginStart="179dp"
             android:layout_marginTop="60dp"
             android:layout_marginEnd="184dp"
-            android:contentDescription="Get the answer to question two"
+            android:contentDescription="@string/get_the_answer_to_question_two"
             android:src="@drawable/ic_baseline_help_outline_24"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
