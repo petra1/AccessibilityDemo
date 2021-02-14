@@ -25,4 +25,5 @@
     <string name="this_image_has_a_meaningful_contentdescription_so_that_screen_reader_users_can_perceive_it">Diese Grafik hat eine aussagekräfitige contentDescription, sodass Screenreader-Anwender diese wahrnehmen können.</string>
     <string name="when_was_the_current_version_of_wcag_released">Wann wurde die aktuelle Version der WCAG veröffentlicht?</string>
     <string name="what_is_the_current_version_of_wcag">Welche Version isst die aktuelle?</string>
+    <string name="header_html" translatable="false">heading.html</string>
 </resources>

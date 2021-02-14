@@ -26,6 +26,8 @@
     <string name="get_the_answer_to_question_two">Get the answer to question two.</string>
     <string name="version_of_wcag">The current version of WCAG is 2.1.</string>
     <string name="released_wcag">The current version was released in june 2018.</string>
-    <string name="just_fault_with_4_4_1_hex_ffffff_on_0083a1">Just failed with 4.4:1, HEX: #ffffff on #0083a1.</string>
+    <string name="header_html" translatable="false">heading.html</string>
+    <string name="just_fault_with_4_4_1_hex_ffffff_on_0083a1">Just failed with 4.4:1, HEX: #ffffff on #0083a1</string>
+
 
 </resources>

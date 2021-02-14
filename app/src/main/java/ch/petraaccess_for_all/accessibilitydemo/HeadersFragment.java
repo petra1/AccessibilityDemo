@@ -35,13 +35,13 @@ public class HeadersFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate (R.layout.fragment_contact, container, false);
-        WebView webView = (WebView) v.findViewById (R.id.webView);
-        webView.loadUrl ("file:///android_asset/heading.html");
+            View v = inflater.inflate (R.layout.fragment_contact, container, false);
+            WebView webView = (WebView) v.findViewById (R.id.webView);
+            webView.loadUrl ("file:///android_asset/" + getString (R.string.header_html));
 
 
 
-        return v;
+            return v;
 
 
 
