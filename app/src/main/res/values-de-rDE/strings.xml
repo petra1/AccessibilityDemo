@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Accessibility Demo</string>
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="navigation_drawer_close">Navigation schließen</string>
+    <string name="contact">Kontakt</string>
+    <string name="first_name">Vorname</string>
+    <string name="last_name">Nachnamen</string>
+    <string name="enter_your_last_name">Geben Sie Ihren Nachnamen ein.</string>
+    <string name="headers">Überschriten</string>
+    <string name="flight_landed">Flug gelandet</string>
+    <string name="images">Grafiken</string>
+    <string name="contrast_ratios">Kontrastverhniälts</string>
+    <string name="send">Senden</string>
+    <string name="image_buttons">Grafische Schalters</string>
+    <string name="get_the_answer_to_question_two">Antwort zur zweiten Frage.</string>
+    <string name="edit_fields">Eingabefelder</string>
+    <string name="released_wcag">Die aktuelle WCAG-Version wurde im Juni 2018 veröffentlicht.</string>
+    <string name="version_of_wcag">Die aktuelle die Version ist 2.1.</string>
+    <string name="just_fault_with_4_4_1_hex_ffffff_on_0083a1">Knapp nicht bestanden mit 4.4:1, HEX: #ffffff auf #0083a1.</string>
+    <string name="just_past_with_4_5_1_hex_00e9ff_on_5a4dad">Knapp bestanden  mit 4.5:1, HEX: #00e9ff auf #5a4dad.</string>
+    <string name="passt_with_21_0_1_hex_ffffff_on_000000">Bestanden  mit  21.0:1, HEX: #ffffff auf #000000.</string>
+    <string name="fault_with_2_3_1_hex_ffffff_on_a0b0a1">Nicht bestanden mit 2.3:1, HEX: #ffffff auf #a0b0a1.</string>
+    <string name="this_image_has_no_contentdescription_so_that_the_screen_reader_ignored_completely">Diese Gragik hat keine contentDescription, sodass sie von dem Screenreader  ignoriert wird.</string>
+    <string name="this_image_has_a_meaningful_contentdescription_so_that_screen_reader_users_can_perceive_it">Diese Grafik hat eine aussagekräfitige contentDescription, sodass Screenreader-Anwender diese wahrnehmen können.</string>
+    <string name="when_was_the_current_version_of_wcag_released">Wann wurde die aktuelle Version der WCAG veröffentlicht?</string>
+    <string name="what_is_the_current_version_of_wcag">Welche Version isst die aktuelle?</string>
+</resources>

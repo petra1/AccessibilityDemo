@@ -53,7 +53,7 @@ public class ImageButtonFragment extends Fragment {
                     @SuppressLint("SetTextI18n")
                     @Override
                     public void onClick(View view) {
-                        textView12.setText ("The current version of WCAG is 2.1.");
+                        textView12.setText (getString(R.string.version_of_wcag));
                     }
 
                 }
@@ -63,7 +63,7 @@ public class ImageButtonFragment extends Fragment {
                     @SuppressLint("SetTextI18n")
                     @Override
                     public void onClick(View view) {
-                        textView13.setText ("The current version was released in june 2018.");
+                        textView13.setText (getString(R.string.released_wcag));
                     }
 
 

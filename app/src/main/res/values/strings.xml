@@ -2,27 +2,18 @@
     <string name="app_name">Accessibility Demo</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Petra Ritter</string>
-
-    <string name="nav_header_desc">Navigation header</string>
-
-
-    <string name="menu_home">Home</string>
-
-
-
-    <!-- TODO: Remove or change this placeholder text -->
-
+    <string name="nav_header_title" translatable="false">Petra Ritter</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="menu_home" translatable="false">Home</string>
     <string name="images">Images</string>
     <string name="image_buttons">Image Buttons</string>
     <string name="headers">Headers</string>
     <string name="edit_fields">Edit Fields</string>
     <string name="contrast_ratios">Contrast Ratios</string>
-    <string name="contact">contact</string>
-    <string name="just_past_with_4_5_1_hex_00e9ff_on_5a4dad">Just past with 4.5:1, HEX: #00e9ff on #5a4dad</string>
-    <string name="passt_with_21_0_1_hex_ffffff_on_000000">Passt with 21.0:1, HEX: #ffffff on #000000</string>
-    <string name="fault_with_2_3_1_hex_ffffff_on_a0b0a1">Fault with 2.3:1, HEX: #ffffff on #a0b0a1</string>
-    <string name="just_fault_with_4_4_1_hex_ffffff_on_0083a1">Just fault with 4.4:1, HEX: #ffffff on #0083a1</string>
+    <string name="contact">Contact</string>
+    <string name="just_past_with_4_5_1_hex_00e9ff_on_5a4dad">Just passed with 4.5:1, HEX: #00e9ff on #5a4dad.</string>
+    <string name="passt_with_21_0_1_hex_ffffff_on_000000">Passed with 21.0:1, HEX: #ffffff auf #000000.</string>
+    <string name="fault_with_2_3_1_hex_ffffff_on_a0b0a1">Failed with 2.3:1, HEX: #ffffff on #a0b0a1.</string>
     <string name="first_name">First name</string>
     <string name="send">Send</string>
     <string name="last_name">Last name</string>
@@ -32,6 +23,9 @@
     <string name="this_image_has_a_meaningful_contentdescription_so_that_screen_reader_users_can_perceive_it">This image has a meaningful contentDescription so that screen reader users can perceive it.</string>
     <string name="what_is_the_current_version_of_wcag">What is the current version of WCAG?</string>
     <string name="when_was_the_current_version_of_wcag_released">When was the current version of WCAG released?</string>
-    <string name="get_the_answer_to_question_two">Get the answer to question two</string>
+    <string name="get_the_answer_to_question_two">Get the answer to question two.</string>
+    <string name="version_of_wcag">The current version of WCAG is 2.1.</string>
+    <string name="released_wcag">The current version was released in june 2018.</string>
+    <string name="just_fault_with_4_4_1_hex_ffffff_on_0083a1">Just failed with 4.4:1, HEX: #ffffff on #0083a1.</string>
 
 </resources>

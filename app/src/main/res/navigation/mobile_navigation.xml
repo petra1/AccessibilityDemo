@@ -16,32 +16,32 @@
     <fragment
         android:id="@+id/contactFragment"
         android:name="ch.petraaccess_for_all.accessibilitydemo.ContactFragment"
-        android:label="Contact"
+        android:label="@string/contact"
         tools:layout="@layout/fragment_contact" />
     <fragment
         android:id="@+id/imageFragment"
         android:name="ch.petraaccess_for_all.accessibilitydemo.ImageFragment"
-        android:label="Images"
+        android:label="@string/images"
         tools:layout="@layout/fragment_image" />
     <fragment
         android:id="@+id/editFieldFragment"
         android:name="ch.petraaccess_for_all.accessibilitydemo.EditFieldFragment"
-        android:label="Eedit Fields"
+        android:label="@string/edit_fields"
         tools:layout="@layout/fragment_edit_field" />
     <fragment
         android:id="@+id/headersFragment"
         android:name="ch.petraaccess_for_all.accessibilitydemo.HeadersFragment"
-        android:label="Header"
+        android:label="@string/headers"
         tools:layout="@layout/fragment_headers" />
     <fragment
         android:id="@+id/contrastFragment"
         android:name="ch.petraaccess_for_all.accessibilitydemo.ContrastFragment"
-        android:label="Contrast ratios"
+        android:label="@string/contrast_ratios"
         tools:layout="@layout/fragment_contrast" />
     <fragment
         android:id="@+id/imageButtonFragment"
         android:name="ch.petraaccess_for_all.accessibilitydemo.ImageButtonFragment"
-        android:label="Image Buttons"
+        android:label="@string/image_buttons"
         tools:layout="@layout/fragment_image_button" />
 
 
