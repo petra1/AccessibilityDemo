@@ -37,7 +37,7 @@ public class ContactFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate (R.layout.fragment_contact, container, false);
         WebView webView = (WebView) v.findViewById (R.id.webView);
-        webView.loadUrl ("file:///android_asset/contact.html");
+        webView.loadUrl ("file:///android_asset/" + getString (R.string.contact_html));
 
         return v;
 
