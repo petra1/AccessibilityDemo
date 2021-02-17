@@ -30,13 +30,13 @@
             android:layout_width="298dp"
             android:layout_height="50dp"
             android:layout_marginStart="46dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="52dp"
             android:background="@color/just_past_background"
+            android:gravity="center|center_horizontal"
             android:text="@string/just_past_with_4_5_1_hex_00e9ff_on_5a4dad"
             android:textColor="@color/just_past_foreground"
-            android:gravity="center|center_horizontal"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintHorizontal_bias="0.432"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -45,13 +45,13 @@
             android:layout_width="297dp"
             android:layout_height="50dp"
             android:layout_marginStart="35dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="64dp"
             android:background="@color/past_background"
             android:gravity="center|center_horizontal"
             android:text="@string/passt_with_21_0_1_hex_ffffff_on_000000"
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.544"
+            app:layout_constraintHorizontal_bias="0.506"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -82,7 +82,7 @@
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.323"
+            app:layout_constraintHorizontal_bias="0.404"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9"
             app:layout_constraintVertical_bias="0.0" />
