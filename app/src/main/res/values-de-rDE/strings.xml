@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Accessibility Demo</string>
-    <string name="navigation_drawer_open">Navigation öffnen</string>
-    <string name="navigation_drawer_close">Navigation schließen</string>
     <string name="contact">Kontakt</string>
     <string name="first_name">Vorname</string>
     <string name="last_name">Nachnamen</string>
