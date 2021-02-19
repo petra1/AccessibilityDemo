@@ -8,10 +8,29 @@ The "Accessibility Demo" is a private project.
 The vision behind the Accessibility Demo is to improve my skills as an Android developer on a real project.
 
 <h2>Usage</h2>
+<p>
+The app is intended to give you your first experience with the screen reader integrated in Android. It does not matter whether you are an Android developer yourself or not. It can also be used in a training course or as an evaluation tool for automated test tools to check the accessibility of apps (e.g. 
+Accessibility Scranner from Google).
+In order to be able to use the app meaningfully, you must activate the screen reader Talkback (or VoiceAssistant on Samsung devices).
+</p>
+<h3>Activation of the screen reader</h3>
 
-The app can be used as a reference to evaluate  test tools for accessibility. The app is also intended as an example of how an  app can be made accessible.
+<Ol>
+<li>Open Settings</li> 
+<li>Scroll down to Access and open it.</li>
+<li>Scroll to Talkbaxck and open it.</li>
+<li>Activate Talkback with the button next to "Use TalkBack".</li>
+</ol>
 
-In the app are different elements e.g image buttons ect. I have implemented each element twice - once in an accessible version and once in a  not accessible variant.
+<p>
+If you do not have any experience with Talkback, it is advisable to work through the introduction that appears when you start it for the first time. 
+</p>
+<p>
+On each screen there are typical elements that are often used in Android apps (e.g. input fields, graphics, graphical buttons, etc.).  On each screen there are two identical elements, the upper of the two has been implemented without accessibility and the lower with accessibility.   If you go through the examples with talkback, you can see or hear the difference between the two examples.
+<p>
+If you are an Android developer, you can also go through the source code of the project.  
+</p>
+
 
 <h2>Contribution</h2>
 
