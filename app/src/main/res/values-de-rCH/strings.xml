@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Accessibility Demo</string>
-    <string name="contact">Kontakt</string>
+    <string name="contact">Kontakt &amp; Verwendung</string>
     <string name="first_name">Vorname</string>
     <string name="last_name">Nachnamen</string>
     <string name="enter_your_last_name">.Geben Sie Ihren Nachnamen ein.</string>

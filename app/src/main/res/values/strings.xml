@@ -8,7 +8,7 @@
     <string name="headers">Headers</string>
     <string name="edit_fields">Edit Fields</string>
     <string name="contrast_ratios">Contrast Ratios</string>
-    <string name="contact">Contact</string>
+    <string name="contact">Contact &amp; Usage</string>
     <string name="just_past_with_4_5_1_hex_00e9ff_on_5a4dad">Just passed with 4.5:1, HEX: #00e9ff on #5a4dad.</string>
     <string name="passt_with_21_0_1_hex_ffffff_on_000000">Passed with 21.0:1, HEX: #ffffff auf #000000.</string>
     <string name="fault_with_2_3_1_hex_ffffff_on_a0b0a1">Failed with 2.3:1, HEX: #ffffff on #a0b0a1.</string>
