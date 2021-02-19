@@ -20,7 +20,7 @@ In order to be able to use the app meaningfully, you must activate the screen re
 <li>Scroll down to Accessbility and open it.</li>
 <li>Scroll to Talkbaxck and open it.</li>
 <li>Activate Talkback with the button next to "Use TalkBack".</li>
- <li>Mayby you asked to give talkbak some permsions. If so do it, please.
+ <li>Mayby you asked to give Talkback some permsions. If so do it, please.
 </ol>
 
 <p>
