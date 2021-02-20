@@ -13,7 +13,7 @@
     <string name="get_the_answer_to_question_two">Antwort zur zweiten Frage</string>
     <string name="edit_fields">Eingabefelder</string>
     <string name="released_wcag">Die aktuelle WCAG-Version wurde im Juni 2018 veröffentlicht.</string>
-    <string name="version_of_wcag">Die aktuelle die Version ist 2.1.</string>
+    <string name="version_of_wcag">Die aktuelle  ist  Version ist 2.1.</string>
     <string name="just_fault_with_4_4_1_hex_ffffff_on_0083a1">Knapp nicht bestanden mit 4.4:1, HEX: #ffffff auf #0083a1.</string>
     <string name="just_past_with_4_5_1_hex_00e9ff_on_5a4dad">Knapp bestanden  mit 4.5:1, HEX: #00e9ff auf #5a4dad.</string>
     <string name="passt_with_21_0_1_hex_ffffff_on_000000">Bestanden  mit  21.0:1, HEX: #ffffff auf #000000.</string>
