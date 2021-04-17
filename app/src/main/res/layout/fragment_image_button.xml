@@ -68,10 +68,11 @@
             android:layout_marginStart="179dp"
             android:layout_marginTop="60dp"
             android:layout_marginEnd="184dp"
-            android:contentDescription="@string/get_the_answer_to_question_two"
+            android:contentDescription="@null"
             android:src="@drawable/ic_baseline_help_outline_24"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        <!--This ImageButton has on  purpose set the CcontentDescrption to nil because the contentDescriotion has been set in JAVA -->
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
