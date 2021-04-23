@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TabOrderFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="76dp"
+            android:accessibilityHeading="true"
+            android:text="@string/tab_order"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="148dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView00" />
+
+        <TextView
+            android:id="@+id/label01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="162dp"
+            android:labelFor="@+id/editText01"
+            android:text="@string/first_name"
+            app:layout_constraintBottom_toTopOf="@+id/label02"
+            app:layout_constraintEnd_toStartOf="@+id/editText01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="85dp"
+            android:ems="10"
+            android:hint="@string/enter_your_first_name"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/label01"
+            app:layout_constraintTop_toBottomOf="@+id/textView00"
+            tools:ignore="LabelFor" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="260dp"
+            android:src="@drawable/ic_baseline_help_outline_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@null"/>
+        <!--This ImageButton has on  purpose set the CcontentDescrption to nil because the contentDescriotion has been set in JAVA -->
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="161dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="162dp"
+            android:text="@string/send"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText01" />
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="148dp"
+            android:accessibilityLiveRegion="polite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button01" />
+
+        <TextView
+            android:id="@+id/label02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="204dp"
+            android:layout_marginEnd="17dp"
+            android:labelFor="@id/editText02"
+            android:text="@string/last_name"
+            app:layout_constraintEnd_toStartOf="@+id/editText02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label01" />
+
+        <EditText
+            android:id="@+id/editText02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginBottom="38dp"
+            android:ems="10"
+            android:hint="@string/enter_your_last_name"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/button02"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/label02"
+            app:layout_constraintTop_toBottomOf="@+id/textView02" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="125dp"
+            android:accessibilityTraversalAfter="@id/button02"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_baseline_help_outline_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+        <!--This ImageButton has on  purpose set the CcontentDescrption to nil because the contentDescriotion has been set in JAVA -->
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="161dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="162dp"
+            android:text="@string/send"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText02" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

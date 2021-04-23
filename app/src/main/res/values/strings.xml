@@ -27,5 +27,10 @@
     <string name="header_html" translatable="false">heading.html</string>
     <string name="just_fault_with_4_4_1_hex_ffffff_on_0083a1">Just failed with 4.4:1, HEX: #ffffff on #0083a1</string>
     <string name="contact_html" translatable="false">contact.html</string>
+    <string name="help">Get help</string>
+    <string name="tab_order">Focus order</string>
+    <string name="enter_your_first_name">Enter your first name</string>
+    <string name="somethings_wrong">Oops, something went wrong with the tab order.</string>
+    <string name="tab_correct">Now the tab order is correct.</string>
 
 </resources>

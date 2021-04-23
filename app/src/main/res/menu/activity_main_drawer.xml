@@ -29,6 +29,11 @@
             android:id="@+id/contrastFragment"
             android:icon="@drawable/ic_baseline_color_lens_24"
             android:title="@string/contrast_ratios" />
+        <item
+            android:id="@+id/tabOrderFragment"
+            android:icon="@drawable/ic_baseline_color_lens_24"
+            android:title="@string/tab_order" />
+
 
         <item
             android:id="@+id/contactFragment"

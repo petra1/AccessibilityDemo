@@ -24,5 +24,10 @@
     <string name="header_html" translatable="false">heading_de.html</string>
     <string name="headers">Überschriften</string>
     <string name="this_image_has_a_meaningful_contentdescription_so_that_screen_reader_users_can_perceive_it">Diese Grafik hat eine aussagekräftige contentDescription, sodass Screenreader-AnwenderInnen diese wahrnehmen können.</string>
+    <string name="help">Hikfe</string>
+    <string name="tab_order">Fokus-Eeihenfolge</string>
+    <string name="enter_your_first_name">Geben Sie Ihren Vornamen ein.</string>
+    <string name="tab_correct">Jetzt ist die Fokus-Reihenfolge korrekt.</string>
+    <string name="somethings_wrong">Ups, etwas mit der Fokus-Reihenfolge ist schief gegangen.</string>
 
 </resources>

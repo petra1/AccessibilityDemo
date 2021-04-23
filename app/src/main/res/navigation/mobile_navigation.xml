@@ -43,6 +43,11 @@
         android:name="ch.petraaccess_for_all.accessibilitydemo.ImageButtonFragment"
         android:label="@string/image_buttons"
         tools:layout="@layout/fragment_image_button" />
+    <fragment
+        android:id="@+id/tabOrderFragment"
+        android:name="ch.petraaccess_for_all.accessibilitydemo.TabOrderFragment"
+        android:label="@string/tab_order"
+        tools:layout="@layout/fragment_tab_order" />
 
 
 </navigation>

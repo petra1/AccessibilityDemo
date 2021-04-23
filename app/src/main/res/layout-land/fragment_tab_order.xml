@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TabOrderFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="16dp"
+            android:accessibilityHeading="true"
+            android:text="@string/tab_order"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="148dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView00" />
+
+        <TextView
+            android:id="@+id/label01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="120dp"
+            android:labelFor="@+id/editText01"
+            android:text="@string/first_name"
+            app:layout_constraintEnd_toStartOf="@+id/editText01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="75dp"
+            android:ems="10"
+            android:hint="@string/enter_your_first_name"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintStart_toEndOf="@+id/label01"
+            app:layout_constraintTop_toBottomOf="@+id/textView00" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="111dp"
+            android:src="@drawable/ic_baseline_help_outline_24"
+            app:layout_constraintStart_toEndOf="@+id/editText01"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="107dp"
+            android:layout_marginEnd="66dp"
+            android:text="@string/send"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="148dp"
+            android:accessibilityLiveRegion="polite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button01" />
+
+        <TextView
+            android:id="@+id/label02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="120dp"
+            android:labelFor="@id/editText02"
+            android:text="@string/last_name"
+            app:layout_constraintEnd_toStartOf="@+id/editText02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label01" />
+
+        <EditText
+            android:id="@+id/editText02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="75dp"
+            android:ems="10"
+            android:hint="@string/enter_your_last_name"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+            app:layout_constraintStart_toEndOf="@+id/label02"
+            app:layout_constraintTop_toBottomOf="@+id/editText01" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="65dp"
+            android:accessibilityTraversalAfter="@id/button02"
+            android:src="@drawable/ic_baseline_help_outline_24"
+            app:layout_constraintEnd_toStartOf="@+id/button02"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="69dp"
+            android:text="@string/send"
+            app:layout_constraintStart_toEndOf="@+id/imageButton4"
+            app:layout_constraintTop_toBottomOf="@+id/button01" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
