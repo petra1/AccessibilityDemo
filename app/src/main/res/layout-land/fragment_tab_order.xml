@@ -7,7 +7,7 @@
     tools:context=".TabOrderFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent">
 
 
@@ -49,10 +49,10 @@
 
         <EditText
             android:id="@+id/editText01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="140dp"
-            android:layout_marginTop="75dp"
+            android:layout_width="338dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="48dp"
             android:ems="10"
             android:hint="@string/enter_your_first_name"
             android:inputType="textPersonName"
@@ -64,12 +64,11 @@
             android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="56dp"
-            android:layout_marginTop="111dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="112dp"
             android:src="@drawable/ic_baseline_help_outline_24"
             app:layout_constraintStart_toEndOf="@+id/editText01"
-            app:layout_constraintTop_toTopOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button01"
@@ -77,7 +76,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="80dp"
             android:layout_marginTop="107dp"
-            android:layout_marginEnd="66dp"
             android:text="@string/send"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageButton3"
@@ -99,9 +97,9 @@
             android:id="@+id/label02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="88dp"
-            android:layout_marginEnd="120dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
             android:labelFor="@id/editText02"
             android:text="@string/last_name"
             app:layout_constraintEnd_toStartOf="@+id/editText02"
@@ -110,11 +108,10 @@
 
         <EditText
             android:id="@+id/editText02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="68dp"
-            android:layout_marginEnd="75dp"
+            android:layout_width="341dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="250dp"
             android:ems="10"
             android:hint="@string/enter_your_last_name"
             android:inputType="textPersonName"
@@ -127,20 +124,22 @@
             android:id="@+id/imageButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="72dp"
-            android:layout_marginEnd="65dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="236dp"
             android:accessibilityTraversalAfter="@id/button02"
             android:src="@drawable/ic_baseline_help_outline_24"
-            app:layout_constraintEnd_toStartOf="@+id/button02"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
 
         <Button
             android:id="@+id/button02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="69dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="10dp"
             android:text="@string/send"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.818"
             app:layout_constraintStart_toEndOf="@+id/imageButton4"
             app:layout_constraintTop_toBottomOf="@+id/button01" />
 

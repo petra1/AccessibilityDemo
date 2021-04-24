@@ -31,7 +31,7 @@
             android:title="@string/contrast_ratios" />
         <item
             android:id="@+id/tabOrderFragment"
-            android:icon="@drawable/ic_baseline_color_lens_24"
+            android:icon="@drawable/ic_baseline_keyboard_tab_24"
             android:title="@string/tab_order" />
 
 
