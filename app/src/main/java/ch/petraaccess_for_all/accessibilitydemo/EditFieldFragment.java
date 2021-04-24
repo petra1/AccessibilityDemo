@@ -52,9 +52,7 @@ public class EditFieldFragment extends Fragment {
                         textView1.setText (editText1.getText ());
                     }
 
-                    public void onclick(View v) {
 
-                    }
                 }
         );
 
@@ -65,10 +63,7 @@ public class EditFieldFragment extends Fragment {
                         textView2.setText (editText2.getText ());
                     }
 
-                    public void onclick(View v) {
-
-                    }
-                }
+                                  }
         );
 
 
