@@ -30,4 +30,6 @@
     <string name="enter_your_first_name">Geben Sie Ihren Vornamen ein.</string>
     <string name="somethings_wrong">Ups, etwas mit der Fokus-Reihenfolge ist schief gegangen.</string>
     <string name="tab_correct">Jetzt ist die Fokus-Reihenfolge korrekt.</string>
+    <string name="your_last_name_is">Ihr Nachname ist</string>
+    <string name="your_first_name_is">Ihr Vorname ist</string>
 </resources>

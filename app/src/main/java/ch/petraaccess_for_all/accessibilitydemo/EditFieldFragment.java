@@ -38,18 +38,19 @@ public class EditFieldFragment extends Fragment {
 
         View v = inflater.inflate (R.layout.fragment_edit_field, container, false);
 
-        Button button1 = (Button) v.findViewById (R.id.button1);
-        Button button2 = (Button) v.findViewById (R.id.button2);
-        final TextView textView1 = (TextView) v.findViewById (R.id.textView1);
-        final TextView textView2 = (TextView) v.findViewById (R.id.textView2);
-        final EditText editText1 = (EditText) v.findViewById (R.id.editText1);
-        final EditText editText2 = (EditText) v.findViewById (R.id.editText2);
+        Button button1 = v.findViewById (R.id.button1);
+        Button button2 = v.findViewById (R.id.button2);
+        final TextView textView1 = v.findViewById (R.id.textView1);
+        final TextView textView2 = v.findViewById (R.id.textView2);
+        final EditText editText1 = v.findViewById (R.id.editText1);
+        final EditText editText2 = v.findViewById (R.id.editText2);
 
         button1.setOnClickListener (
                 new Button.OnClickListener () {
                     @Override
                     public void onClick(View view) {
                         textView1.setText (editText1.getText ());
+
                     }
 
 
@@ -61,6 +62,7 @@ public class EditFieldFragment extends Fragment {
                     @Override
                     public void onClick(View view) {
                         textView2.setText (editText2.getText ());
+                        textView2.setContentDescription(getString(R.string.your_last_name_is) + textView2.getText() );
                     }
 
                                   }

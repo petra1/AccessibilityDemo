@@ -42,11 +42,11 @@ public class ImageButtonFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate (R.layout.fragment_image_button, container, false);
-        ImageButton imageButton1 = (ImageButton) v.findViewById (R.id.imageButton);
-        ImageButton imageButton2 = (ImageButton) v.findViewById (R.id.imageButton2);
+        ImageButton imageButton1 = v.findViewById (R.id.imageButton);
+        ImageButton imageButton2 = v.findViewById (R.id.imageButton2);
         imageButton2.setContentDescription(getString(R.string.get_the_answer_to_question_two));
-        final TextView textView12 = (TextView) v.findViewById (R.id.textView12);
-        final TextView textView13 = (TextView) v.findViewById (R.id.textView13);
+        final TextView textView12 = v.findViewById (R.id.textView12);
+        final TextView textView13 = v.findViewById (R.id.textView13);
 
 
         imageButton1.setOnClickListener (

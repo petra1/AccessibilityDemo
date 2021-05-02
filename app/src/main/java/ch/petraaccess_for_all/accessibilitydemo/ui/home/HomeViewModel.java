@@ -6,11 +6,11 @@ import androidx.lifecycle.ViewModel;
 
 public class HomeViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private final MutableLiveData<String> mText;
 
     public HomeViewModel() {
         mText = new MutableLiveData<> ();
-        mText.setValue ("Welcome to Accessibility-Demo ");
+        mText.setValue ("Welcome to Accessibility-Demo");
     }
 
     public LiveData<String> getText() {

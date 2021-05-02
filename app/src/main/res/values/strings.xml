@@ -32,5 +32,7 @@
     <string name="enter_your_first_name">Enter your first name</string>
     <string name="somethings_wrong">Oops, something went wrong with the tab order.</string>
     <string name="tab_correct">Now the tab order is correct.</string>
+    <string name="your_last_name_is">Your last name is</string>
+    <string name="your_first_name_is">"Your fist name is "</string>
 
 </resources>

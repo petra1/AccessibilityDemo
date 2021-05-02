@@ -30,6 +30,7 @@
             android:layout_marginStart="150dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="148dp"
+            android:accessibilityLiveRegion="polite"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView00" />

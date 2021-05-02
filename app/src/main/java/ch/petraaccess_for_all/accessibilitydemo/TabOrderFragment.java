@@ -38,7 +38,8 @@ public class TabOrderFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-//from here copy
+
+    //from here copy
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -57,13 +58,15 @@ public class TabOrderFragment extends Fragment {
         final EditText editText02 = v.findViewById(R.id.editText02);
 
 
-        button01.setOnClickListener(new Button.OnClickListener() {
-                                        @Override
-                                        public void onClick(View view) {
-                                            textView01.setText(editText01.getText());
-                                        }
+        button01.setOnClickListener(
+                new Button.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        textView01.setText(editText01.getText());
+                        textView01.setContentDescription(getString(R.string.your_first_name_is) + textView01.getText() );
+                    }
 
-                                    }
+                }
         );
 
         button02.setOnClickListener(
@@ -71,6 +74,7 @@ public class TabOrderFragment extends Fragment {
                     @Override
                     public void onClick(View view) {
                         textView02.setText(editText02.getText());
+                        textView02.setContentDescription(getString(R.string.your_last_name_is) + textView02.getText());
                     }
 
                 }
