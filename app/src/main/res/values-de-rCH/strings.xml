@@ -31,5 +31,7 @@
     <string name="somethings_wrong">Ups, etwas mit der Fokus-Reihenfolge ist schief gegangen.</string>
     <string name="your_last_name_is">Ihr Nachname ist</string>
     <string name="your_first_name_is">Ihr Vorname ist</string>
+    <string name="dark_mode_heading_.html" translatable="false">dark_mode_heading_de.html</string>
+    <string name="dark_mode_contact.html" translatable="false">dark_mode_contact_de.html</string>
 
 </resources>

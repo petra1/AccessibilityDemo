@@ -34,5 +34,7 @@
     <string name="tab_correct">Now the tab order is correct.</string>
     <string name="your_last_name_is">Your last name is</string>
     <string name="your_first_name_is">"Your fist name is "</string>
+    <string name="dark_mode_heading_.html" translatable="false">dark_mode_heading.html</string>
+    <string name="dark_mode_contact.html" translatable="false">dark_mode_contact.html</string>
 
 </resources>

@@ -32,6 +32,8 @@
     <string name="tab_correct">Jetzt ist die Fokus-Reihenfolge korrekt.</string>
     <string name="your_last_name_is">Ihr Nachname ist</string>
     <string name="your_first_name_is">Ihr Vorname ist</string>
+    <string name="dark_mode_heading_.html" translatable="false">dark_mode_heading_de.html</string>
+    <string name="dark_mode_contact.html" translatable="false">dark_mode_contact_de.html</string>
 
 
 </resources>
