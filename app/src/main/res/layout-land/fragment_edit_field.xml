@@ -101,7 +101,6 @@
             android:ems="10"
             android:hint="@string/enter_your_last_name"
             android:inputType="textPersonName"
-            android:textColorHint="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button2"
             app:layout_constraintStart_toEndOf="@+id/label2" />
