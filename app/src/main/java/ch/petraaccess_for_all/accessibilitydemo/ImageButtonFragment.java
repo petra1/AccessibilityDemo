@@ -44,6 +44,7 @@ public class ImageButtonFragment extends Fragment {
         View v = inflater.inflate (R.layout.fragment_image_button, container, false);
         ImageButton imageButton1 = v.findViewById (R.id.imageButton);
         ImageButton imageButton2 = v.findViewById (R.id.imageButton2);
+        Button buttonReset = v.findViewById(R.id.buttonReset);
         imageButton2.setContentDescription(getString(R.string.get_the_answer_to_question_two));
         final TextView textView12 = v.findViewById (R.id.textView12);
         final TextView textView13 = v.findViewById (R.id.textView13);
@@ -69,6 +70,18 @@ public class ImageButtonFragment extends Fragment {
 
 
                 }
+        );
+
+        buttonReset.setOnClickListener(
+                new Button.OnClickListener () {
+                    @SuppressLint("SetTextI18n")
+                    @Override
+                    public void onClick(View view) {
+                        textView12.setText (getString(R.string.what_is_the_current_version_of_wcag));
+                        textView13.setText (getString(R.string.when_was_the_current_version_of_wcag_released));
+                    }
+               }
+
         );
 
         return v;

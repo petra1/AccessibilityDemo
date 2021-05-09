@@ -38,6 +38,9 @@ public class HeadersFragment extends Fragment {
                              Bundle savedInstanceState) {
             View v = inflater.inflate (R.layout.fragment_contact, container, false);
             WebView webView = v.findViewById (R.id.webView);
+        v.setVerticalScrollBarEnabled(true);
+        v.setHorizontalScrollBarEnabled(true);
+
             switch (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) {
                 case Configuration.UI_MODE_NIGHT_YES:
                     webView.loadUrl ("file:///android_asset/" + getString (R.string.dark_mode_heading__html));
