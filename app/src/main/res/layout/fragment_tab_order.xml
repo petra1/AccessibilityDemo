@@ -43,7 +43,6 @@
             android:layout_marginTop="190dp"
             android:layout_marginEnd="2dp"
             android:layout_marginBottom="300dp"
-            android:labelFor="@+id/editText01"
             android:text="@string/first_name"
             app:layout_constraintBottom_toTopOf="@+id/label02"
             app:layout_constraintEnd_toStartOf="@+id/editText01"
@@ -55,16 +54,20 @@
             android:layout_width="293dp"
             android:layout_height="57dp"
             android:layout_marginStart="17dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="44dp"
             android:layout_marginEnd="30dp"
             android:ems="10"
-            android:hint="@string/enter_your_first_name"
             android:inputType="textPersonName"
-            android:textColorHint="#000000"
+            android:hint="@string/enter_your_first_name"
+            android:textColorHint="@color/textColorHint"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/label01"
             app:layout_constraintTop_toBottomOf="@+id/textView00"
             tools:ignore="LabelFor" />
+        <!--Adding a hint to EditText views is an alternative to labelFor but has the
+         disadvantage that  hints disappears as soon as the user start to enter some text
+         into the TextEdit view so that screen users loose the label for that view.
+         For this reason I prefer to use android:labelFor="". -->
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -76,7 +79,8 @@
             android:src="@drawable/ic_baseline_help_outline_24"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <!--This ImageButton has on  purpose set the CcontentDescrption to nil because the contentDescriotion has been set in JAVA -->
+        <!--This ImageButton has on  purpose set the contentDescription to nil because the
+        contentDescription has been set in JAVA -->
 
         <Button
             android:id="@+id/button01"
@@ -124,7 +128,7 @@
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="38dp"
             android:ems="10"
-            android:hint="@string/enter_your_last_name"
+            android:textColorHint="@color/textColorHint"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toTopOf="@+id/button02"
             app:layout_constraintEnd_toEndOf="parent"
@@ -144,7 +148,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/label02" />
-        <!--This ImageButton has on  purpose set the CcontentDescrption to nil because the contentDescriotion has been set in JAVA -->
+        <!--This ImageButton has on  purpose set the contentDescription to nil because
+        the contentDescription has been set in JAVA -->
 
         <Button
             android:id="@+id/button02"

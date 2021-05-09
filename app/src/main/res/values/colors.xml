@@ -9,4 +9,5 @@
     <color name="just_fault_background">#0083a1</color>
     <color name="fault_background">#a0b0a1</color>
     <color name="white">#ffffff</color>
+    <color name="textColorHint">#000000</color>
 </resources>
