@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".TabOrderFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -57,8 +57,8 @@
             android:layout_marginTop="44dp"
             android:layout_marginEnd="30dp"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="@string/enter_your_first_name"
+            android:inputType="textPersonName"
             android:textColorHint="@color/textColorHint"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/label01"
@@ -128,8 +128,8 @@
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="38dp"
             android:ems="10"
-            android:textColorHint="@color/textColorHint"
             android:inputType="textPersonName"
+            android:textColorHint="@color/textColorHint"
             app:layout_constraintBottom_toTopOf="@+id/button02"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/label02"
