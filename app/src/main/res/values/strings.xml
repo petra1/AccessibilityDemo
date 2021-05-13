@@ -37,5 +37,6 @@
     <string name="dark_mode_heading_.html" translatable="false">dark_mode_heading.html</string>
     <string name="dark_mode_contact.html" translatable="false">dark_mode_contact.html</string>
     <string name="reset_questions">Reset questions</string>
+    <string name="welcome">Welcome to Accessibility-Demo</string>
 
 </resources>
