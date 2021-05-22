@@ -33,7 +33,7 @@ public class TabOrderFragment extends Fragment {
         Button button01 = v.findViewById(R.id.button01);
         Button button02 = v.findViewById(R.id.button02);
         ImageButton imageButton3 = v.findViewById(R.id.imageButton3);
-        imageButton3.setContentDescription(getString(R.string.help));
+        imageButton3.setContentDescription(getString(R.string.help_1));
         ImageButton imageButton4 = v.findViewById(R.id.imageButton4);
         imageButton4.setContentDescription(getString(R.string.help));
         final TextView textView01 = v.findViewById(R.id.textView01);
