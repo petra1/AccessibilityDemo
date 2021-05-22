@@ -71,14 +71,15 @@
 
         <ImageButton
             android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="47.619dp"
+            android:layout_height="43.047dp"
             android:layout_marginStart="23dp"
             android:layout_marginTop="260dp"
             android:contentDescription="@null"
             android:src="@drawable/ic_baseline_help_outline_24"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="16sp"/>
         <!--This ImageButton has on  purpose set the contentDescription to nil because the
         contentDescription has been set in JAVA -->
 
@@ -138,8 +139,8 @@
 
         <ImageButton
             android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="47.619dp"
+            android:layout_height="43.047dp"
             android:layout_marginStart="23dp"
             android:layout_marginTop="190dp"
             android:layout_marginBottom="120dp"
@@ -148,7 +149,8 @@
             android:src="@drawable/ic_baseline_help_outline_24"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/label02" />
+            app:layout_constraintTop_toBottomOf="@+id/label02"
+            android:padding="16sp"/>
         <!--This ImageButton has on  purpose set the contentDescription to nil because
         the contentDescription has been set in JAVA -->
 
