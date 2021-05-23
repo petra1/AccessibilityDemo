@@ -66,8 +66,8 @@
 
         <ImageButton
             android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:layout_marginStart="52dp"
             android:layout_marginTop="112dp"
             android:contentDescription="@null"
@@ -75,7 +75,10 @@
             app:layout_constraintStart_toEndOf="@+id/editText01"
             app:layout_constraintTop_toTopOf="parent" />
         <!--This ImageButton has on  purpose set contentDescription to nil because the
-        contentDescription has been set in JAVA -->
+        contentDescription has been set in JAVA.
+
+        To pass WCAG 2.1 Success criterion 2.5.5 the touch size must be at minimum 44 by 44 px.
+         -->
 
         <Button
             android:id="@+id/button01"
@@ -128,8 +131,8 @@
 
         <ImageButton
             android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:layout_marginTop="88dp"
             android:layout_marginEnd="236dp"
             android:accessibilityTraversalAfter="@id/button02"
@@ -138,7 +141,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
         <!--This ImageButton has on  purpose set contentDescription to nil because the
-        contentDescription has been set in JAVA -->
+        contentDescription has been set in JAVA.
+
+        To pass WCAG 2.1 Success criterion 2.5.5 the touch size must be at minimum 44 by 44 px.
+         -->
 
         <Button
             android:id="@+id/button02"

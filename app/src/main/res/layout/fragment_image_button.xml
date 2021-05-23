@@ -39,8 +39,8 @@
 
         <ImageButton
             android:id="@+id/imageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:layout_marginStart="179dp"
             android:layout_marginTop="60dp"
             android:layout_marginEnd="184dp"
@@ -48,6 +48,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <!--   To pass WCAG 2.1 Success criterion 2.5.5 the touch size must be at minimum 44 by 44 px.
+         -->
+
 
         <TextView
             android:id="@+id/textView13"
@@ -64,10 +68,10 @@
 
         <ImageButton
             android:id="@+id/imageButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:layout_marginStart="179dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="45dp"
             android:layout_marginEnd="184dp"
             android:contentDescription="@null"
             android:src="@drawable/ic_baseline_help_outline_24"
@@ -75,7 +79,10 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
         <!--This ImageButton has on  purpose set the ContentDescription to nil because
-       the contentDescription has been set in JAVA -->
+       the contentDescription has been set in JAVA.
+
+       To pass WCAG 2.1 Success criterion 2.5.5 the touch size must be at minimum 44 by 44 px.
+        -->
 
         <Button
             android:id="@+id/buttonReset"
