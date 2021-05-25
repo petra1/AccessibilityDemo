@@ -28,7 +28,7 @@ In order to be able to use the app meaningfully, you must activate the screen re
 If you do not have any experience with Talkback, it is advisable to work through the introduction that appears when you start it for the first time. 
 </p>
 <p>
-On each screen there are typical elements that are often used in Android apps (e.g. input fields, graphics, graphical buttons, etc.).  On each screen there are two identical elements, the upper of the two has been implemented without accessibility and the lower with accessibility.   If you go through the examples with talkback, you can see or hear the difference between the two examples.
+On each screen there are typical elements that are often used in Android apps (e.g. input fields, graphics, graphical buttons, etc.). The upper of the two has been implemented without accessibility and the lower with accessibility.   If you go through the examples with talkback, you can see or hear the difference between the two examples.
 <p>
 If you are an Android developer, you can also go through the source code of the project.  
 </p>
