@@ -18,8 +18,8 @@ In order to be able to use the app meaningfully, you must activate the screen re
 
 <ol>
 <li>Open Settings</li> 
-<li>Scroll down to Accessbility and open it.</li>
-<li>Scroll to Talkbaxck and open it.</li>
+<li>Scroll down to Accessibility and open it.</li>
+<li>Scroll to Talkback and open it.</li>
 <li>Activate Talkback with the button next to "Use TalkBack".</li>
 <li>Mayby you asked to give Talkback some permsions, if so do it, please.
 </ol>
@@ -28,7 +28,7 @@ In order to be able to use the app meaningfully, you must activate the screen re
 If you do not have any experience with Talkback, it is advisable to work through the introduction that appears when you start it for the first time. 
 </p>
 <p>
-On each screen there are typical elements that are often used in Android apps (e.g. input fields, graphics, graphical buttons, etc.). The upper of the two has been implemented without accessibility and the lower with accessibility.   If you go through the examples with talkback, you can see or hear the difference between the two examples.
+On each screen there are typical elements that are often used in Android apps (e.g. input fields, graphics, graphical buttons, etc.). The upper of the two has been implemented without accessibility and the lower with accessibility. If you go through the examples with talkback, you can see or hear the difference between the two examples.
 <p>
 If you are an Android developer, you can also go through the source code of the project.  
 </p>
